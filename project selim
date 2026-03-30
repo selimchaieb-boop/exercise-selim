@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inventaire</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px 10px;
+      text-align: left;
+      font-size: 12px;
+    }
+    th {
+      background-color: #007bff;
+      color: white;
+      position: sticky;
+      top: 0;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    tr:hover {
+      background-color: #e0f7ff;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Inventaire</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>SKU</th>
+      <th>Description</th>
+      <th>Category</th>
+      <th>UOM</th>
+      <th>Supplier ID</th>
+      <th>Supplier Status</th>
+      <th>Lead Time Days</th>
+      <th>Unit Cost</th>
+      <th>Annual Demand D</th>
+      <th>Daily Consumption</th>
+      <th>Annual Value</th>
+      <th>ABC Class</th>
+      <th>Demand Variability Score</th>
+      <th>XYZ Class</th>
+      <th>Order Cost S</th>
+      <th>Holding Cost H</th>
+      <th>EOQ</th>
+      <th>Safety Stock</th>
+      <th>Reorder Point</th>
+      <th>Seuil Min</th>
+      <th>Stock Physical</th>
+      <th>In Transit</th>
+      <th>Reserved</th>
+      <th>Net Available</th>
+      <th>BNMP Message</th>
+      <th>Qty Suggested</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>SAFE-00292</td>
+      <td>RJ45 Connector</td>
+      <td>SAFE</td>
+      <td>unit</td>
+      <td>SUP007</td>
+      <td>inactive</td>
+      <td>10</td>
+      <td>19.03</td>
+      <td>13218</td>
+      <td>52.87</td>
+      <td>251538.54</td>
+      <td>A</td>
+      <td>0.389</td>
+      <td>Y</td>
+      <td>101.54</td>
+      <td>3.81</td>
+      <td>839</td>
+      <td>135</td>
+      <td>664</td>
+      <td>664</td>
+      <td>760</td>
+      <td>38</td>
+      <td>137</td>
+      <td>661</td>
+      <td>À commander</td>
+      <td>109</td>
+    </tr>
+    <tr>
+      <td>FOOD-00097</td>
+      <td>Bubble Wrap</td>
+      <td>FOOD</td>
+      <td>kg</td>
+      <td>SUP005</td>
+      <td>active</td>
+      <td>12</td>
+      <td>16.46</td>
+      <td>10219</td>
+      <td>40.88</td>
+      <td>168204.74</td>
+      <td>A</td>
+      <td>0.193</td>
+      <td>X</td>
+      <td>146.75</td>
+      <td>3.13</td>
+      <td>979</td>
+      <td>107</td>
+      <td>598</td>
+      <td>598</td>
+      <td>701</td>
+      <td>8</td>
+      <td>5</td>
+      <td>704</td>
+      <td>OK</td>
+      <td>0</td>
+    </tr>
+    <!-- Continue avec le reste de ton tableau -->
+  </tbody>
+</table>
+
+</body>
+</html>
